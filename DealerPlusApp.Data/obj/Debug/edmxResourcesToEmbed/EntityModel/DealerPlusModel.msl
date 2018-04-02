@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DealerPlusModelStoreContainer" CdmEntityContainer="DealerPlusEntities">
+    <EntitySetMapping Name="AdminSystems">
+      <EntityTypeMapping TypeName="DealerPlusModel.AdminSystem">
+        <MappingFragment StoreEntitySet="AdminSystem">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Checks">
+      <EntityTypeMapping TypeName="DealerPlusModel.Check">
+        <MappingFragment StoreEntitySet="Check">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Employee" ColumnName="Employee" />
+          <ScalarProperty Name="CheckType" ColumnName="CheckType" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditDebits">
+      <EntityTypeMapping TypeName="DealerPlusModel.CreditDebit">
+        <MappingFragment StoreEntitySet="CreditDebit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditDebitDatas">
+      <EntityTypeMapping TypeName="DealerPlusModel.CreditDebitData">
+        <MappingFragment StoreEntitySet="CreditDebitData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CreditDebitID" ColumnName="CreditDebitID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="EmplyeeID" ColumnName="EmplyeeID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="InitalDate" ColumnName="InitalDate" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="DealerPlusModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsMarketManager" ColumnName="IsMarketManager" />
+          <ScalarProperty Name="IsStoreManager" ColumnName="IsStoreManager" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseIncomes">
+      <EntityTypeMapping TypeName="DealerPlusModel.ExpenseIncome">
+        <MappingFragment StoreEntitySet="ExpenseIncome">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DefualtValue" ColumnName="DefualtValue" />
+          <ScalarProperty Name="ChangeEveryMonth" ColumnName="ChangeEveryMonth" />
+          <ScalarProperty Name="FixedValue" ColumnName="FixedValue" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseIncomeDatas">
+      <EntityTypeMapping TypeName="DealerPlusModel.ExpenseIncomeData">
+        <MappingFragment StoreEntitySet="ExpenseIncomeData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ExpenseIncomeID" ColumnName="ExpenseIncomeID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Markets">
+      <EntityTypeMapping TypeName="DealerPlusModel.Market">
+        <MappingFragment StoreEntitySet="Market">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserAdminID" ColumnName="UserAdminID" />
+          <ScalarProperty Name="MarketName" ColumnName="MarketName" />
+          <ScalarProperty Name="MarketAddess" ColumnName="MarketAddess" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StoreCount" ColumnName="StoreCount" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MRQVSCashes">
+      <EntityTypeMapping TypeName="DealerPlusModel.MRQVSCash">
+        <MappingFragment StoreEntitySet="MRQVSCash">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="OriginalReport" ColumnName="OriginalReport" />
+          <ScalarProperty Name="SkimReport" ColumnName="SkimReport" />
+          <ScalarProperty Name="Cash" ColumnName="Cash" />
+          <ScalarProperty Name="Check" ColumnName="Check" />
+          <ScalarProperty Name="Diff" ColumnName="Diff" />
+          <ScalarProperty Name="CommentOriginalReport" ColumnName="CommentOriginalReport" />
+          <ScalarProperty Name="CommentSkimRevport" ColumnName="CommentSkimRevport" />
+          <ScalarProperty Name="CommentCash" ColumnName="CommentCash" />
+          <ScalarProperty Name="CommentCheck" ColumnName="CommentCheck" />
+          <ScalarProperty Name="CommentDiff" ColumnName="CommentDiff" />
+          <ScalarProperty Name="InitalDate" ColumnName="InitalDate" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OverheadExpenses">
+      <EntityTypeMapping TypeName="DealerPlusModel.OverheadExpense">
+        <MappingFragment StoreEntitySet="OverheadExpense">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OverheadExpenseDatas">
+      <EntityTypeMapping TypeName="DealerPlusModel.OverheadExpenseData">
+        <MappingFragment StoreEntitySet="OverheadExpenseData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OHExpenseID" ColumnName="OHExpenseID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="InitalDate" ColumnName="InitalDate" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OverheadSalaries">
+      <EntityTypeMapping TypeName="DealerPlusModel.OverheadSalary">
+        <MappingFragment StoreEntitySet="OverheadSalaries">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="InitalDate" ColumnName="InitalDate" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfitAndLoseAlls">
+      <EntityTypeMapping TypeName="DealerPlusModel.ProfitAndLoseAll">
+        <MappingFragment StoreEntitySet="ProfitAndLoseAll">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Precentage" ColumnName="Precentage" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfitAndLoseAllDatas">
+      <EntityTypeMapping TypeName="DealerPlusModel.ProfitAndLoseAllData">
+        <MappingFragment StoreEntitySet="ProfitAndLoseAllData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProfitLoseAllID" ColumnName="ProfitLoseAllID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="IntialDate" ColumnName="IntialDate" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stores">
+      <EntityTypeMapping TypeName="DealerPlusModel.Store">
+        <MappingFragment StoreEntitySet="Store">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="StoreName" ColumnName="StoreName" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StoreSalaries">
+      <EntityTypeMapping TypeName="DealerPlusModel.StoreSalary">
+        <MappingFragment StoreEntitySet="StoreSalary">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ChildName" ColumnName="ChildName" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StoreSalaryDatas">
+      <EntityTypeMapping TypeName="DealerPlusModel.StoreSalaryData">
+        <MappingFragment StoreEntitySet="StoreSalaryData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="StoreSalaryID" ColumnName="StoreSalaryID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="CreatedUserNameID" ColumnName="CreatedUserNameID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserNameID" ColumnName="ModifiedUserNameID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Summaries">
+      <EntityTypeMapping TypeName="DealerPlusModel.Summary">
+        <MappingFragment StoreEntitySet="Summary">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MarketID" ColumnName="MarketID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="InTotal" ColumnName="InTotal" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SummaryDatas">
+      <EntityTypeMapping TypeName="DealerPlusModel.SummaryData">
+        <MappingFragment StoreEntitySet="SummaryData">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="SummaryID" ColumnName="SummaryID" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="InitialDate" ColumnName="InitialDate" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="CreatedUserAdminID" ColumnName="CreatedUserAdminID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedUserAdminID" ColumnName="ModifiedUserAdminID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DealerPlusModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersAdmins">
+      <EntityTypeMapping TypeName="DealerPlusModel.UsersAdmin">
+        <MappingFragment StoreEntitySet="UsersAdmin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Islocked" ColumnName="Islocked" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedAdminSystemID" ColumnName="CreatedAdminSystemID" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ModifiedAdminSystemID" ColumnName="ModifiedAdminSystemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

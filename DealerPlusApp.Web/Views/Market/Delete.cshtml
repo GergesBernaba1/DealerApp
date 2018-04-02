@@ -1,0 +1,61 @@
+﻿@model DealerPlusApp.Data.Market
+
+<!-- Modal content-->
+@if (ViewBag.hasStores)
+{
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+       
+
+            <div class="modal-body">
+                <h4 class="text-danger">To delete this market, you should delete its related stores first!</h4>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-dismiss="modal" id="close_btn">OK</button>
+              
+            </div>
+
+    </div>
+}
+
+else
+{
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        @using (Ajax.BeginForm("Delete", "Market", new AjaxOptions() {InsertionMode = InsertionMode.Replace, UpdateTargetId = "list", OnComplete = "SaveDelete"}))
+        {
+            @Html.HiddenFor(model => model.ID)
+
+            <div class="modal-body">
+                <h4>Are you sure to delete this market ?</h4>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+                <button type="submit" class="btn btn-success">Save</button>
+            </div>
+
+        }
+
+
+    </div>
+}
+
+
+<script>
+        function SaveDelete() {
+            $("#modalDiv").modal('hide');
+            $('.modal-body').find('input :not(input:last)').val('');
+            $(".modal-body input").val("");
+            $("#successDelete").removeClass("hide");
+            $("#successDelete").fadeIn(3000);
+            $("#successDelete").fadeOut(3000);
+        }
+</script>
+
+

@@ -1,0 +1,205 @@
+﻿<!-- Success Section -->
+<div class="col-md-12">
+
+    <div class="alert alert-success hide" id="successEdit">
+        <strong>Success!</strong> Store has been updated successfully.
+    </div>
+
+    <div class="alert alert-success hide" id="successDelete">
+        <strong>Success!</strong> Store has been deleted successfully.
+    </div>
+</div>
+
+<!--testttt-->
+
+<div ng-controller="StoreController">
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-5">
+            <div class="admin-form">
+                <div class="section">
+                    <div class="smart-widget sm-right smr-80">
+                        <label class="field prepend-icon">
+                            <input type="text" name="sub2" id="sub2" class="gui-input" placeholder="Please Enter Store Name" ng-model="searchKeyWord">
+                            <label for="s" class="field-icon">
+                                <i class="fa fa-search"></i>
+                            </label>
+                        </label>
+                        <button type="button" class="button" ng-click="getListOfStores(searchKeyWord)">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="bs-component">
+            <div class="panel">
+
+                <div class="panel-body">
+                    <div class="tab-content pn br-n">
+                        <div id="tab1_1" class="tab-pane active">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-9">
+
+                                    
+                                    <div ng-repeat="store in filteredStores" ng-if="$index %3 ==0" class="row">
+                                        <div class="col-xs-3">
+
+
+                                            <div class="row">
+                                                <div class="col-xs-8 well text-center text-primary">
+                                                    <h4>{{filteredStores[$index].StoreName}}</h4>
+                                                    <p>Created By: {{filteredStores[$index].CreatedAuditBy}}</p>
+
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <div class="row ">&nbsp;</div>
+
+
+                                                    <div class="row ">
+
+
+                                                        @Ajax.ActionLink("Edit", "Edit", new { id = 1 }, new AjaxOptions() { UpdateTargetId = "modalDialog", InsertionMode = InsertionMode.Replace, OnComplete = "EditStore" }, new { @class = "btn btn-sm  bg-warning dark btn-block  text-white text-center" })
+
+                                                        @Ajax.ActionLink("Delete", "Delete", new { id = 1 }, new AjaxOptions() { UpdateTargetId = "modalDialog", InsertionMode = InsertionMode.Replace, OnComplete = "DeleteStore" }, new { @class = "btn btn-sm bg-danger btn-block light text-white text-center" })
+
+
+                                                    </div>
+
+                                                    <div class="row "></div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="col-xs-1"></div>
+
+
+
+                                        <div class="col-xs-3" ng-if="filteredStores.length > ($index + 1)">
+
+
+                                            <div class="row">
+                                                <div class="col-xs-8 well text-center text-primary">
+                                                    <h4>{{filteredStores[$index+1].StoreName}}</h4>
+                                                    <p>Created By: {{filteredStores[$index+1].CreatedAuditBy}}</p>
+
+                                                </div>
+                                                <div class="col-xs-4 ">
+
+                                                    <div class="row ">&nbsp;</div>
+                                                    <div class="row ">
+                                                        @Ajax.ActionLink("Edit", "Edit", new { id = 1 }, new AjaxOptions() { UpdateTargetId = "modalDialog", InsertionMode = InsertionMode.Replace, OnComplete = "EditStore" }, new { @class = "btn btn-sm  bg-warning dark btn-block  text-white text-center" })
+
+                                                        @Ajax.ActionLink("Delete", "Delete", new { id = 1 }, new AjaxOptions() { UpdateTargetId = "modalDialog", InsertionMode = InsertionMode.Replace, OnComplete = "DeleteStore" }, new { @class = "btn btn-sm bg-danger btn-block light text-white text-center" })
+
+
+
+                                                    </div>
+
+                                                    <div class="row "></div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="col-xs-1"></div>
+
+                                        <div class="col-xs-3" ng-if="filteredStores.length > ($index + 2)">
+
+                                            <div class="row">
+                                                <div class="col-xs-8 well text-center text-primary">
+                                                    <h4>{{filteredStores[$index+2].StoreName}}</h4>
+                                                    <p>Created By: {{filteredStores[$index+2].CreatedAuditBy}}</p>
+
+                                                </div>
+                                                <div class="col-xs-4">
+
+                                                    <div class="row ">&nbsp;</div>
+                                                    <div class="row">
+
+                                                        @Ajax.ActionLink("Edit", "Edit", new { id = 1 }, new AjaxOptions() { UpdateTargetId = "modalDialog", InsertionMode = InsertionMode.Replace, OnComplete = "EditStore" }, new { @class = "btn btn-sm  bg-warning dark btn-block  text-white text-center" })
+
+                                                        @Ajax.ActionLink("Delete", "Delete", new { id = 1 }, new AjaxOptions() { UpdateTargetId = "modalDialog", InsertionMode = InsertionMode.Replace, OnComplete = "DeleteStore" }, new { @class = "btn btn-sm bg-danger btn-block light text-white text-center" })
+
+
+                                                    </div>
+                                                    <div class="row "></div>
+
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    
+
+                                    <div class="row">
+                                        <div class="col-md-3"></div>
+                                        <div class="col-md-6">
+                                            <pagination ng-model="currentPage"
+                                                        total-items="storeList.length"
+                                                        max-size="maxSize"
+                                                        boundary-links="true">
+                                            </pagination>
+
+                                        </div>
+                                        <div class="col-md-3"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function EditStore() {
+            $(".modal-header").html("Edit Store <button class='btn btn-primary close ' data-dismiss='modal'>&times;</button>");
+            $("#modalDiv").modal('show');
+            $(".modal-footer").show();
+            $(".modal-dialog").removeClass("modal-sm");
+        }
+
+
+        function DeleteStore() {
+            $(".modal-header").html("Delete Store <button class='btn btn-primary close ' data-dismiss='modal'>&times;</button>");
+            $("#modalDiv").modal('show');
+            $(".modal-footer").show();
+            $(".modal-dialog").removeClass("modal-sm");
+        }
+
+    </script>

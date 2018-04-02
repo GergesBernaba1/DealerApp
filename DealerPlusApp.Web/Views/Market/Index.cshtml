@@ -1,0 +1,118 @@
+﻿@using DealerPlusApp.Data
+@model Market
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!--Header-->
+<header id="topbar">
+    <div class="topbar-left">
+        <ol class="breadcrumb">
+            <li class="crumb-active">
+                <a href="#">Dashboard</a>
+            </li>
+            <li class="crumb-icon">
+                <a href="#">
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li class="crumb-trail">Markets</li>
+        </ol>
+    </div>
+    <div class="topbar-right">
+        <div class="ml15 ib va-m" id="toggle_sidemenu_r">
+            <a href="#" class="pl5">
+                <i class="fa fa-sign-in fs22 text-primary"></i>
+                <span class="badge badge-hero badge-danger">3</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+
+<!-- Success add Section -->
+<div class="col-md-12">
+
+    <div class="alert alert-success hide" id="Addsuccess">
+        <strong>Done!</strong> Market has been added successfully.
+    </div>
+
+
+</div>
+
+<!-- Success edit Section -->
+<div class="col-md-12">
+
+    <div class="alert alert-success hide" id="successEdit">
+        <strong>Success!</strong> Market has been updated successfully.
+    </div>
+
+
+</div>
+
+<!-- Success delete Section -->
+<div class="col-md-12">
+
+    <div class="alert alert-success hide" id="successDelete">
+        <strong>Success!</strong> Market has been deleted successfully.
+    </div>
+
+
+</div>
+
+
+
+<!--Create New Market Button-->
+   <div class="col-md-12">
+  
+        <div class="panel">
+
+            <div class="panel-body">
+              
+                <div class="row">
+                   
+                    <div class="col-md-2">
+                        @Ajax.ActionLink("Create Market", "Create", null, new AjaxOptions() { UpdateTargetId = "modalbody", InsertionMode = InsertionMode.Replace, OnComplete = "CreateMarket" }, new { @class = "btn btn-link" })
+                        <br />
+
+                    </div>
+                
+                </div>
+
+
+                <div id="list" class="row">
+                            @Html.Partial("MarketList")
+                        </div>
+                   
+                
+            </div>
+        </div>
+    
+</div>
+
+
+
+
+<!-- Modal -->
+ <div class="modal fade" id="modalDiv" role="dialog" aria-hidden="true" >
+     <div class="modal-dialog" id="modalbody">
+
+     </div>
+</div>
+
+
+
+
+<script>
+
+    
+    function CreateMarket() {
+        $(".modal-header").html("Add New Market <button class='btn btn-primary close ' data-dismiss='modal'>&times;</button>");
+        $("#modalDiv").modal('show');
+        $(".modal-footer").show();
+        $(".modal-dialog").removeClass("modal-sm");
+    }
+
+</script>
+

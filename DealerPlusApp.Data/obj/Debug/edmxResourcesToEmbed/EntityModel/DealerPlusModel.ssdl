@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DealerPlusModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AdminSystem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="varbinary(max)" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="15" />
+    <Property Name="SecondName" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Check">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Employee" Type="int" />
+    <Property Name="CheckType" Type="nvarchar" MaxLength="100" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CreditDebit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CreditDebitData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CreditDebitID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="EmplyeeID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="InitalDate" Type="datetime" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SecondName" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="varbinary" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="10" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="IsMarketManager" Type="bit" />
+    <Property Name="IsStoreManager" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="nchar" MaxLength="10" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ExpenseIncome">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="Type" Type="nchar" MaxLength="1" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="DefualtValue" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ChangeEveryMonth" Type="bit" />
+    <Property Name="FixedValue" Type="bit" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ExpenseIncomeData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ExpenseIncomeID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Market">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserAdminID" Type="int" />
+    <Property Name="MarketName" Type="nvarchar" MaxLength="100" />
+    <Property Name="MarketAddess" Type="nvarchar" MaxLength="200" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="10" />
+    <Property Name="StoreCount" Type="char" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MRQVSCash">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="OriginalReport" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SkimReport" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Cash" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Check" Type="nchar" MaxLength="2" />
+    <Property Name="Diff" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="CommentOriginalReport" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommentSkimRevport" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommentCash" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommentCheck" Type="nvarchar" MaxLength="50" />
+    <Property Name="CommentDiff" Type="nvarchar" MaxLength="50" />
+    <Property Name="InitalDate" Type="date" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="OverheadExpense">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="OverheadExpenseData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OHExpenseID" Type="int" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="InitalDate" Type="datetime" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="nchar" MaxLength="10" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="OverheadSalaries">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="InitalDate" Type="datetime" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ProfitAndLoseAll">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Precentage" Type="int" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ProfitAndLoseAllData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProfitLoseAllID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="IntialDate" Type="datetime" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Store">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="StoreName" Type="nvarchar" MaxLength="50" />
+    <Property Name="StoreAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="10" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StoreSalary">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="ChildName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsDeleted" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StoreSalaryData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="StoreSalaryID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedUserNameID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserNameID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Summary">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MarketID" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="InTotal" Type="bit" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SummaryData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="SummaryID" Type="int" />
+    <Property Name="StoreID" Type="int" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="InitialDate" Type="datetime" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedUserAdminID" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedUserAdminID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UsersAdmin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="varbinary" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="15" />
+    <Property Name="SecondName" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="10" />
+    <Property Name="Islocked" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedAdminSystemID" Type="int" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="ModifiedAdminSystemID" Type="int" />
+  </EntityType>
+  <Association Name="FK_Check_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Check" Type="Self.Check" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Check">
+        <PropertyRef Name="Employee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Check_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="Check" Type="Self.Check" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Check">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditDebit_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="CreditDebit" Type="Self.CreditDebit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CreditDebit">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditDebitData_CreditDebit">
+    <End Role="CreditDebit" Type="Self.CreditDebit" Multiplicity="0..1" />
+    <End Role="CreditDebitData" Type="Self.CreditDebitData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CreditDebit">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CreditDebitData">
+        <PropertyRef Name="CreditDebitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditDebitData_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="CreditDebitData" Type="Self.CreditDebitData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CreditDebitData">
+        <PropertyRef Name="EmplyeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditDebitData_Store">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="CreditDebitData" Type="Self.CreditDebitData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CreditDebitData">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Store">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseIncome_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="ExpenseIncome" Type="Self.ExpenseIncome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExpenseIncome">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseIncome_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="ExpenseIncome" Type="Self.ExpenseIncome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExpenseIncome">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseIncome_Store">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="ExpenseIncome" Type="Self.ExpenseIncome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExpenseIncome">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExpenseIncomeData_ExpenseIncome">
+    <End Role="ExpenseIncome" Type="Self.ExpenseIncome" Multiplicity="0..1" />
+    <End Role="ExpenseIncomeData" Type="Self.ExpenseIncomeData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseIncome">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExpenseIncomeData">
+        <PropertyRef Name="ExpenseIncomeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Market_UsersAdmin">
+    <End Role="UsersAdmin" Type="Self.UsersAdmin" Multiplicity="0..1" />
+    <End Role="Market" Type="Self.Market" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UsersAdmin">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Market">
+        <PropertyRef Name="UserAdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MRQVSCash_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="MRQVSCash" Type="Self.MRQVSCash" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MRQVSCash">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MRQVSCash_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="MRQVSCash" Type="Self.MRQVSCash" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MRQVSCash">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverheadExpense_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="OverheadExpense" Type="Self.OverheadExpense" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OverheadExpense">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverheadExpenseData_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="OverheadExpenseData" Type="Self.OverheadExpenseData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OverheadExpenseData">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverheadExpenseData_OverheadExpense">
+    <End Role="OverheadExpense" Type="Self.OverheadExpense" Multiplicity="0..1" />
+    <End Role="OverheadExpenseData" Type="Self.OverheadExpenseData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OverheadExpense">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OverheadExpenseData">
+        <PropertyRef Name="OHExpenseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OverheadSalaries_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="OverheadSalaries" Type="Self.OverheadSalaries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="OverheadSalaries">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfitAndLoseAll_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="ProfitAndLoseAll" Type="Self.ProfitAndLoseAll" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProfitAndLoseAll">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfitAndLoseAllData_ProfitAndLoseAll">
+    <End Role="ProfitAndLoseAll" Type="Self.ProfitAndLoseAll" Multiplicity="0..1" />
+    <End Role="ProfitAndLoseAllData" Type="Self.ProfitAndLoseAllData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProfitAndLoseAll">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProfitAndLoseAllData">
+        <PropertyRef Name="ProfitLoseAllID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProfitAndLoseAllData_Store">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="ProfitAndLoseAllData" Type="Self.ProfitAndLoseAllData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ProfitAndLoseAllData">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Store_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="Store" Type="Self.Store" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Store">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoreSalary_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="StoreSalary" Type="Self.StoreSalary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StoreSalary">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoreSalaryData_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="StoreSalaryData" Type="Self.StoreSalaryData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StoreSalaryData">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoreSalaryData_Store">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="StoreSalaryData" Type="Self.StoreSalaryData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StoreSalaryData">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoreSalaryData_StoreSalary">
+    <End Role="StoreSalary" Type="Self.StoreSalary" Multiplicity="0..1" />
+    <End Role="StoreSalaryData" Type="Self.StoreSalaryData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StoreSalary">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StoreSalaryData">
+        <PropertyRef Name="StoreSalaryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Summary_Market">
+    <End Role="Market" Type="Self.Market" Multiplicity="0..1" />
+    <End Role="Summary" Type="Self.Summary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Market">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Summary">
+        <PropertyRef Name="MarketID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SummaryData_Store">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="SummaryData" Type="Self.SummaryData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SummaryData">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SummaryData_Summary">
+    <End Role="Summary" Type="Self.Summary" Multiplicity="0..1" />
+    <End Role="SummaryData" Type="Self.SummaryData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Summary">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SummaryData">
+        <PropertyRef Name="SummaryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DealerPlusModelStoreContainer">
+    <EntitySet Name="AdminSystem" EntityType="Self.AdminSystem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Check" EntityType="Self.Check" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CreditDebit" EntityType="Self.CreditDebit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CreditDebitData" EntityType="Self.CreditDebitData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExpenseIncome" EntityType="Self.ExpenseIncome" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExpenseIncomeData" EntityType="Self.ExpenseIncomeData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Market" EntityType="Self.Market" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MRQVSCash" EntityType="Self.MRQVSCash" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OverheadExpense" EntityType="Self.OverheadExpense" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OverheadExpenseData" EntityType="Self.OverheadExpenseData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OverheadSalaries" EntityType="Self.OverheadSalaries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProfitAndLoseAll" EntityType="Self.ProfitAndLoseAll" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProfitAndLoseAllData" EntityType="Self.ProfitAndLoseAllData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Store" EntityType="Self.Store" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StoreSalary" EntityType="Self.StoreSalary" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StoreSalaryData" EntityType="Self.StoreSalaryData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Summary" EntityType="Self.Summary" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SummaryData" EntityType="Self.SummaryData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersAdmin" EntityType="Self.UsersAdmin" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Check_Employee" Association="Self.FK_Check_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Check" EntitySet="Check" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Check_Market" Association="Self.FK_Check_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="Check" EntitySet="Check" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditDebit_Market" Association="Self.FK_CreditDebit_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="CreditDebit" EntitySet="CreditDebit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditDebitData_CreditDebit" Association="Self.FK_CreditDebitData_CreditDebit">
+      <End Role="CreditDebit" EntitySet="CreditDebit" />
+      <End Role="CreditDebitData" EntitySet="CreditDebitData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditDebitData_Employee" Association="Self.FK_CreditDebitData_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="CreditDebitData" EntitySet="CreditDebitData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditDebitData_Store" Association="Self.FK_CreditDebitData_Store">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="CreditDebitData" EntitySet="CreditDebitData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Market" Association="Self.FK_Employee_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Store" Association="Self.FK_Employee_Store">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseIncome_Employee" Association="Self.FK_ExpenseIncome_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="ExpenseIncome" EntitySet="ExpenseIncome" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseIncome_Market" Association="Self.FK_ExpenseIncome_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="ExpenseIncome" EntitySet="ExpenseIncome" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseIncome_Store" Association="Self.FK_ExpenseIncome_Store">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="ExpenseIncome" EntitySet="ExpenseIncome" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExpenseIncomeData_ExpenseIncome" Association="Self.FK_ExpenseIncomeData_ExpenseIncome">
+      <End Role="ExpenseIncome" EntitySet="ExpenseIncome" />
+      <End Role="ExpenseIncomeData" EntitySet="ExpenseIncomeData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Market_UsersAdmin" Association="Self.FK_Market_UsersAdmin">
+      <End Role="UsersAdmin" EntitySet="UsersAdmin" />
+      <End Role="Market" EntitySet="Market" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MRQVSCash_Employee" Association="Self.FK_MRQVSCash_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="MRQVSCash" EntitySet="MRQVSCash" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MRQVSCash_Market" Association="Self.FK_MRQVSCash_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="MRQVSCash" EntitySet="MRQVSCash" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverheadExpense_Market" Association="Self.FK_OverheadExpense_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="OverheadExpense" EntitySet="OverheadExpense" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverheadExpenseData_Employee" Association="Self.FK_OverheadExpenseData_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="OverheadExpenseData" EntitySet="OverheadExpenseData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverheadExpenseData_OverheadExpense" Association="Self.FK_OverheadExpenseData_OverheadExpense">
+      <End Role="OverheadExpense" EntitySet="OverheadExpense" />
+      <End Role="OverheadExpenseData" EntitySet="OverheadExpenseData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OverheadSalaries_Employee" Association="Self.FK_OverheadSalaries_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="OverheadSalaries" EntitySet="OverheadSalaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfitAndLoseAll_Market" Association="Self.FK_ProfitAndLoseAll_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="ProfitAndLoseAll" EntitySet="ProfitAndLoseAll" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfitAndLoseAllData_ProfitAndLoseAll" Association="Self.FK_ProfitAndLoseAllData_ProfitAndLoseAll">
+      <End Role="ProfitAndLoseAll" EntitySet="ProfitAndLoseAll" />
+      <End Role="ProfitAndLoseAllData" EntitySet="ProfitAndLoseAllData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProfitAndLoseAllData_Store" Association="Self.FK_ProfitAndLoseAllData_Store">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="ProfitAndLoseAllData" EntitySet="ProfitAndLoseAllData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Store_Market" Association="Self.FK_Store_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="Store" EntitySet="Store" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoreSalary_Market" Association="Self.FK_StoreSalary_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="StoreSalary" EntitySet="StoreSalary" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoreSalaryData_Employee" Association="Self.FK_StoreSalaryData_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="StoreSalaryData" EntitySet="StoreSalaryData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoreSalaryData_Store" Association="Self.FK_StoreSalaryData_Store">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="StoreSalaryData" EntitySet="StoreSalaryData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoreSalaryData_StoreSalary" Association="Self.FK_StoreSalaryData_StoreSalary">
+      <End Role="StoreSalary" EntitySet="StoreSalary" />
+      <End Role="StoreSalaryData" EntitySet="StoreSalaryData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Summary_Market" Association="Self.FK_Summary_Market">
+      <End Role="Market" EntitySet="Market" />
+      <End Role="Summary" EntitySet="Summary" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SummaryData_Store" Association="Self.FK_SummaryData_Store">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="SummaryData" EntitySet="SummaryData" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SummaryData_Summary" Association="Self.FK_SummaryData_Summary">
+      <End Role="Summary" EntitySet="Summary" />
+      <End Role="SummaryData" EntitySet="SummaryData" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

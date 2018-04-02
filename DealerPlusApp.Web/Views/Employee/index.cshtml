@@ -1,0 +1,48 @@
+﻿@model DealerPlusApp.Data.Employee
+<!-- Start: Topbar -->
+<header id="topbar">
+    <div class="topbar-left">
+        <ol class="breadcrumb">
+            <li class="crumb-active">
+                <a href="#">Dashboard</a>
+            </li>
+            <li class="crumb-icon">
+                <a href="#">
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li class="crumb-trail">Employees</li>
+        </ol>
+    </div>
+    <div class="topbar-right">
+        <div class="ml15 ib va-m" id="toggle_sidemenu_r">
+            <a href="#" class="pl5">
+                <i class="fa fa-sign-in fs22 text-primary"></i>
+                <span class="badge badge-hero badge-danger">3</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="col-md-12" >
+    <div class="bs-component">
+        <div class="panel">
+
+            <div class="panel-body">
+                <div class="tab-content pn br-n">
+                    <div id="tab1_1" class="tab-pane active">
+                        <div class="row">
+                            <div class="col-md-8">
+
+                                <div ng-controller="EmployeeController">
+                                    <input type="text" ng-model="models.helloAngular" />
+                                    <h1>{{models.helloAngular}}</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

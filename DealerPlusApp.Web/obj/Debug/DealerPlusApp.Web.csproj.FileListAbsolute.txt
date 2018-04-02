@@ -1,0 +1,531 @@
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\WebGrease.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\Design\DealerPlusApp\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\WebGrease.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\WebGrease.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\WebGrease.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\WebGrease.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Web\bin\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Autofac.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Http.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\WebGrease.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Autofac.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Http.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\bin\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Autofac.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Http.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\WebGrease.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Autofac.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Http.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Autofac.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\EntityFramework.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Http.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Razor.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\WebGrease.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Autofac.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\EntityFramework.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Http.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Razor.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Autofac.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\EntityFramework.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Http.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Razor.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\WebGrease.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Autofac.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\EntityFramework.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Http.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Razor.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+D:\testGit\development\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+D:\testGit\development\DealerPlusApp.Web\bin\Autofac.dll
+D:\testGit\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+D:\testGit\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+D:\testGit\development\DealerPlusApp.Web\bin\EntityFramework.dll
+D:\testGit\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.dll
+D:\testGit\development\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\testGit\development\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Http.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Razor.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+D:\testGit\development\DealerPlusApp.Web\bin\WebGrease.dll
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+D:\testGit\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+D:\testGit\development\DealerPlusApp.Web\bin\Autofac.xml
+D:\testGit\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+D:\testGit\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+D:\testGit\development\DealerPlusApp.Web\bin\EntityFramework.xml
+D:\testGit\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.xml
+D:\testGit\development\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Http.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Razor.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+D:\testGit\development\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+D:\testGit\development\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+D:\testGit\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+D:\testGit\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+D:\testGit\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Autofac.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Http.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\WebGrease.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll.config
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Autofac.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Http.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll.config
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Web.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Antlr3.Runtime.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Autofac.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\EntityFramework.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Newtonsoft.Json.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Helpers.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Http.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Mvc.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Optimization.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Razor.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.WebPages.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\WebGrease.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Core.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Data.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\DealerPlusApp.Service.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Autofac.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Autofac.Integration.Mvc.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Autofac.Integration.WebApi.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\EntityFramework.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\EntityFramework.SqlServer.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Newtonsoft.Json.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Net.Http.Formatting.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Helpers.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Http.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Http.WebHost.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Mvc.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Razor.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.WebPages.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.WebPages.Deployment.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.WebPages.Razor.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\System.Web.Optimization.xml
+D:\NewDealerPlus\development\DealerPlusApp.Web\bin\Antlr3.Runtime.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.csprojResolveAssemblyReference.cache
+D:\NewDealerPlus\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.dll
+D:\NewDealerPlus\development\DealerPlusApp.Web\obj\Debug\DealerPlusApp.Web.pdb

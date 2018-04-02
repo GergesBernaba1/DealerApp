@@ -1,0 +1,79 @@
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+D:\YehiaWork\DealersApp\Code\layout\DealerPlusApp\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kareem.mostafa\Desktop\Market\layout\DealerPlusApp\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\DealerPlusApp\dealerplusdev\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+D:\YehiaWork\DealersApp\Code\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+E:\DealerPlusApp\Solution\Version 1\DealerPlusApp\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+D:\testGit\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+D:\testGit\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+D:\testGit\development\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+D:\testGit\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\testGit\development\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+D:\testGit\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\testGit\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+D:\testGit\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+D:\testGit\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+C:\Users\kareem.mostafa\Desktop\Market\Do3aaTask\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.dll
+D:\NewDealerPlus\development\DealerPlusApp.Core\bin\Debug\DealerPlusApp.Core.pdb
+D:\NewDealerPlus\development\DealerPlusApp.Core\bin\Debug\EntityFramework.dll
+D:\NewDealerPlus\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\NewDealerPlus\development\DealerPlusApp.Core\bin\Debug\EntityFramework.xml
+D:\NewDealerPlus\development\DealerPlusApp.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\NewDealerPlus\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.csprojResolveAssemblyReference.cache
+D:\NewDealerPlus\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.dll
+D:\NewDealerPlus\development\DealerPlusApp.Core\obj\Debug\DealerPlusApp.Core.pdb

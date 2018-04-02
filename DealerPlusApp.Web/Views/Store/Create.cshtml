@@ -1,0 +1,164 @@
+﻿@model DealerPlusApp.Data.Store
+
+<!-- Modal content-->
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Create Store</h4>
+    </div>
+    @using (Ajax.BeginForm("Create", "Store", new AjaxOptions() { OnComplete = "SaveStore" }))
+    {
+        <div class="modal-body">
+
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+
+               <div class="form-group">
+                      @Html.LabelFor(model => model.MarketID, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-8">
+                            @Html.DropDownList("MarketID", ViewBag.marketList as SelectList, new { @class = "form-control", @id = "MarketID" })
+                        </div>
+                    </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.StoreName, "Store Name", htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.StoreName, new { htmlAttributes = new { @class = "form-control" ,@id="txtStoreName"} })
+                        <span class="text-danger hide" id="txtStoreNameV"></span>
+                        
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.StoreAddress, "Address Name", htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.StoreAddress, new { htmlAttributes = new { @class = "form-control", @id = "txtStoreAddress" } })
+                        <span class="text-danger hide" id="txtStoreAddressV"></span>
+                        
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.PhoneNumber, "Phone Number", htmlAttributes: new { @class = "control-label col-md-3" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control", @id = "txtStorePhone" } })
+                        <span class="text-danger hide" id="txtStorePhoneV"></span>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+            <button type="submit" class="btn btn-success" id="btnSave">Save</button>
+        </div>
+
+    }
+
+
+
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+
+        $("#btnSave").on("click", function (e) {
+
+            e.preventDefault();
+            validateForm();
+
+        });
+
+        $("#txtStoreName,#txtStoreAddress,#txtStorePhone").keyup(function () {
+
+            $(":submit").removeAttr("disabled");
+
+            if ($(this).attr("id") == "txtStoreName") {
+                $('#txtStoreNameV').text("");
+
+
+            } else if ($(this).attr("id") == "txtStoreAddress") {
+
+                $('#txtStoreAddressV').text("");
+
+
+            } else {
+
+                $('#txtStorePhoneV').text("");
+
+            }
+        });
+
+
+        function validateForm() {
+            $.ajax({
+                type: "GET",
+                url: "Store/isStoreNameOrPhoneExist",
+                data: { storeName: $("#txtStoreName").val(), storePhone: $("#txtStorePhone").val(),id:-1 },
+                success: function (response) {
+                    if (response == "1 0") {
+                        $('#txtStoreNameV').text("Store Name is Already Exists");
+                        $('#txtStoreNameV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+
+                    } else if (response == "0 1") {
+                        $('#txtStorePhoneV').text("Store Phone Number is Already Exists");
+                        $('#txtStorePhoneV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+                    } else if (response == "1 1") {
+                        $('#txtStoreNameV').text("Store Name is Already Exists");
+                        $('#txtStoreNameV').removeClass("hide");
+                        $('#txtStorePhoneV').text("Store Phone Number is Already Exists");
+                        $('#txtStorePhoneV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+
+                    } else {
+
+                        if ($.trim($('#txtStoreName').val()) == '') {
+                            $('#txtStoreNameV').text("Store Name is Required");
+                            $('#txtStoreNameV').removeClass("hide");
+                            $(":submit").attr("disabled", true);
+                            $("#isValid").val("0");
+
+                        }
+                        if ($.trim($('#txtStorePhone').val()) == '') {
+                            $('#txtStorePhoneV').text("Store Phone is Required");
+                            $('#txtStorePhoneV').removeClass("hide");
+                            $(":submit").attr("disabled", true);
+                        } else {
+                            var phone = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/;
+                            if (!(phone.test($("#txtStorePhone").val()) && $("#txtStorePhone").val().length == 10)) {
+
+                                $('#txtStorePhoneV').text("Store Phone should be 10 Numbers");
+                                $('#txtStorePhoneV').removeClass("hide");
+                                $(":submit").attr("disabled", true);
+                            }
+                        }
+
+                    }
+
+                    if ($.trim($('#txtStoreAddress').val()) == '') {
+                        $('#txtStoreAddressV').text("Store Address is Required");
+                        $('#txtStoreAddressV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+                    }
+
+
+                    if (!$(":submit").is("[disabled]")) {
+
+                        $('#btnSave').unbind("click").click();
+                    }
+
+
+                }
+            });
+
+
+        }
+    });
+</script>

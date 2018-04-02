@@ -1,0 +1,166 @@
+﻿@model DealerPlusApp.Data.Market
+           
+ <!-- Modal content-->
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Create Market</h4>
+    </div>
+@using (Ajax.BeginForm("Create", "Market", new AjaxOptions() { OnComplete = "SaveCreate" }))
+{
+    <div class="modal-body">
+   
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <div class="form-group">
+                @Html.LabelFor(model => model.MarketName, "Market Name", htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.MarketName, new { htmlAttributes = new { @class = "form-control", @id="txtMarketName"} })
+                    <span class="text-danger hide" id="txtMarketNameV"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MarketAddess, "Address Name", htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.MarketAddess, new { htmlAttributes = new { @class = "form-control", @id = "txtMarketAddress" } })
+                    <span class="text-danger hide" id="txtMarketAddressV"></span>
+
+                </div>
+            </div>
+            
+            <div class="form-group">
+                @Html.LabelFor(model => model.PhoneNumber, "Phone Number", htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control", @id = "txtMarketPhone" } })
+                    <span class="text-danger hide" id="txtMarketPhoneV"></span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="close_btn">Close</button>
+                <button type="submit" class="btn btn-success" id="btnSave">Save</button>
+            </div>
+
+    }
+    
+
+
+</div>
+
+
+
+<script>
+    $(document).ready(function() {
+
+        $("#btnSave").on("click", function(e) {
+
+            e.preventDefault();
+            validateForm();
+
+        });
+
+        $("#txtMarketName,#txtMarketAddress,#txtMarketPhone").keyup(function() {
+
+            $(":submit").removeAttr("disabled");
+
+            if ($(this).attr("id") == "txtMarketName") {
+                $('#txtMarketNameV').text("");
+
+
+            } else if ($(this).attr("id") == "txtMarketAddress") {
+
+                $('#txtMarketAddressV').text("");
+
+
+            } else {
+
+                $('#txtMarketPhoneV').text("");
+
+            }
+        });
+
+
+        function validateForm() {
+            $.ajax({
+                type: "GET",
+                url: "Market/isMarketNameOrPhoneExist",
+                data: { marketName: $("#txtMarketName").val(), marketPhone: $("#txtMarketPhone").val(), id:-1 },
+                success: function(response) {
+                    if (response == "1 0") {
+                        $('#txtMarketNameV').text("Market Name is Already Exists");
+                        $('#txtMarketNameV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+
+                    } else if (response == "0 1") {
+                        $('#txtMarketPhoneV').text("Market Phone Number is Already Exists");
+                        $('#txtMarketPhoneV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+                    } else if (response == "1 1") {
+                        $('#txtMarketNameV').text("Market Name is Already Exists");
+                        $('#txtMarketNameV').removeClass("hide");
+                        $('#txtMarketPhoneV').text("Market Phone Number is Already Exists");
+                        $('#txtMarketPhoneV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+
+                    } else {
+                        
+                        if ($.trim($('#txtMarketName').val()) == '') {
+                            $('#txtMarketNameV').text("Market Name is Required");
+                            $('#txtMarketNameV').removeClass("hide");
+                            $(":submit").attr("disabled", true);
+                            $("#isValid").val("0");
+
+                        }
+                        if ($.trim($('#txtMarketPhone').val()) == '') {
+                            $('#txtMarketPhoneV').text("Market Phone is Required");
+                            $('#txtMarketPhoneV').removeClass("hide");
+                            $(":submit").attr("disabled", true);
+                        } else {
+                            var phone = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/;
+                            if (!(phone.test($("#txtMarketPhone").val()) && $("#txtMarketPhone").val().length == 10)) {
+                                
+                                $('#txtMarketPhoneV').text("Market Phone should be 10 Numbers");
+                                $('#txtMarketPhoneV').removeClass("hide");
+                                $(":submit").attr("disabled", true);
+                            }
+                        }
+                        
+                    }
+                    
+                    if ($.trim($('#txtMarketAddress').val()) == '') {
+                        $('#txtMarketAddressV').text("Market Address is Required");
+                        $('#txtMarketAddressV').removeClass("hide");
+                        $(":submit").attr("disabled", true);
+                    }
+                    
+
+                    if (! $(":submit").is("[disabled]"))
+
+                    {
+                
+                         $('#btnSave').unbind("click").click();
+                    }
+                    
+
+                }
+            });
+
+
+        }
+    });    
+  
+
+    function SaveCreate() {
+        $("#modalDiv").modal('hide');
+        $('.modal-body').find('input :not(input:last)').val('');
+        $(".modal-body input").val("");
+        $("#Addsuccess").removeClass("hide");
+        $("#Addsuccess").fadeIn(3000);
+        $("#Addsuccess").fadeOut(3000);
+    } 
+
+</script>
